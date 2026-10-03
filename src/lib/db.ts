@@ -179,7 +179,7 @@ const WELCOME_CONTENT = `# Welcome to Cortex 🚀
 ## 🏢 Organizations & Sharing
 
 - **Auto-claim domain** — the first user from your corporate domain becomes the org owner. Teammates join automatically.
-- **Members & guests** — invite people by email (\`People\` tab in your org). Members consume seats, guests have access only to specific folders.
+- **Members & guests** — invite people by email (\`People\` tab in your org). Members belong to the organization; guests only reach the folders you share with them.
 - **Folder sharing** — share an individual folder with a specific email or an entire domain. Hover any root folder to see the share icon.
 - **Roles** — owner / admin / member, with view or edit access on shared folders.
 
@@ -222,7 +222,7 @@ const WELCOME_CONTENT_ES = `# Bienvenido a Cortex 🚀
 ## 🏢 Organizaciones y compartir
 
 - **Auto-reclamo de dominio** — el primer usuario de tu dominio corporativo se convierte en dueño de la organización. Los compañeros se unen automáticamente.
-- **Miembros e invitados** — invita por email (pestaña \`People\` de tu organización). Los miembros consumen asientos; los invitados solo acceden a carpetas concretas.
+- **Miembros e invitados** — invita por email (pestaña \`People\` de tu organización). Los miembros pertenecen a la organización; los invitados solo acceden a las carpetas que compartas con ellos.
 - **Compartir carpetas** — comparte una carpeta con un email específico o con todo un dominio. Pasa el cursor sobre una carpeta raíz para ver el icono de compartir.
 - **Roles** — owner / admin / member, con acceso de lectura o edición en las carpetas compartidas.
 

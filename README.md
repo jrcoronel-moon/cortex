@@ -18,6 +18,25 @@ the notes you already keep, scoped to exactly what you choose to share.
 
 ---
 
+## Screenshots
+
+**Workspace** — tabbed markdown editor with frontmatter properties, wikilinks, a floating file tree,
+an "on this page" outline and the related-documents panel.
+
+![Cortex workspace](docs/screenshots/workspace.png)
+
+**Knowledge graph** — notes in 3D, coloured by detected topic community. Edges are the links you wrote
+plus the ones Cortex derives from the content: embedding similarity and shared distinctive terms.
+
+![Cortex knowledge graph](docs/screenshots/knowledge-graph.png)
+
+**Rich documents** — syntax highlighting, Mermaid diagrams and draw.io diagrams you can edit in place,
+all stored as plain markdown in the note.
+
+![Rich markdown rendering](docs/screenshots/editor.png)
+
+---
+
 ## What it is
 
 Cortex stores plain markdown in a single SQLite file and layers three things on top:
