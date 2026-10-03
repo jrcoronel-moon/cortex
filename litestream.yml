@@ -1,0 +1,13 @@
+# Litestream — optional continuous replication of the SQLite database to S3.
+# Used by the `litestream` sidecar in docker-compose.yml. Remove that service
+# if you don't want off-site backups.
+#
+# ${VARS} are expanded from the environment (.env). Litestream reads
+# AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY automatically.
+dbs:
+  - path: /app/data/cortex.db
+    replicas:
+      - type: s3
+        bucket: ${LITESTREAM_BUCKET}
+        path: cortex-db
+        region: ${AWS_REGION}

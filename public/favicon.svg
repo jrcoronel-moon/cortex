@@ -1,0 +1,27 @@
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6c6cf5"/>
+      <stop offset="1" stop-color="#52d9ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0a0e27"/>
+  <!-- synapse links -->
+  <g stroke="url(#g)" stroke-width="4" stroke-linecap="round" opacity="0.85">
+    <line x1="64" y1="64" x2="36" y2="36"/>
+    <line x1="64" y1="64" x2="94" y2="44"/>
+    <line x1="64" y1="64" x2="40" y2="94"/>
+    <line x1="64" y1="64" x2="90" y2="92"/>
+    <line x1="36" y1="36" x2="94" y2="44"/>
+    <line x1="40" y1="94" x2="90" y2="92"/>
+  </g>
+  <!-- nodes -->
+  <g fill="url(#g)">
+    <circle cx="36" cy="36" r="10"/>
+    <circle cx="94" cy="44" r="8"/>
+    <circle cx="40" cy="94" r="8"/>
+    <circle cx="90" cy="92" r="10"/>
+  </g>
+  <circle cx="64" cy="64" r="14" fill="#e8eefb"/>
+  <circle cx="64" cy="64" r="6" fill="#6c6cf5"/>
+</svg>

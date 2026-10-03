@@ -1,0 +1,11 @@
+# Caddy reverse proxy for the Docker Compose stack.
+# Replace the hostnames with your own; Caddy provisions TLS automatically.
+# For a purely local run, use `:80` instead of a hostname.
+
+cortex.example.com {
+    reverse_proxy web:3000
+}
+
+www.example.com {
+    reverse_proxy website:3001
+}

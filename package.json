@@ -1,0 +1,74 @@
+{
+  "name": "cortex",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Self-hosted, open-source markdown knowledge base with a 3D knowledge graph, semantic search and a built-in MCP server.",
+  "license": "AGPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jrcoronel-moon/cortex.git"
+  },
+  "homepage": "https://github.com/jrcoronel-moon/cortex#readme",
+  "bugs": {
+    "url": "https://github.com/jrcoronel-moon/cortex/issues"
+  },
+  "keywords": [
+    "knowledge-base",
+    "markdown",
+    "notes",
+    "mcp",
+    "model-context-protocol",
+    "knowledge-graph",
+    "semantic-search",
+    "self-hosted",
+    "nextjs",
+    "sqlite"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "^0.10.35",
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@mozilla/readability": "^0.6.0",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "@xenova/transformers": "^2.17.2",
+    "better-sqlite3": "^12.8.0",
+    "exceljs": "^4.4.0",
+    "linkedom": "^0.18.13",
+    "lucide-react": "^1.7.0",
+    "mammoth": "^1.12.0",
+    "mermaid": "^11.16.0",
+    "next": "14.2.5",
+    "nodemailer": "^8.0.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-force-graph-2d": "^1.29.1",
+    "react-force-graph-3d": "^1.29.1",
+    "react-hot-toast": "^2.6.0",
+    "react-markdown": "^10.1.0",
+    "react-syntax-highlighter": "^16.1.1",
+    "remark-gfm": "^4.0.1",
+    "three": "^0.185.1",
+    "three-spritetext": "^1.10.0",
+    "turndown": "^7.2.4",
+    "turndown-plugin-gfm": "^1.0.2",
+    "unpdf": "^1.6.2",
+    "yaml": "^2.8.3"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^20",
+    "@types/nodemailer": "^8.0.0",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/three": "^0.185.1",
+    "@types/turndown": "^5.0.6",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "typescript": "^5"
+  }
+}
